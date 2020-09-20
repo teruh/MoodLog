@@ -7,7 +7,7 @@
 
     <fragment
             android:id="@+id/FirstFragment"
-            android:name="me.zacl.moodlog.FirstFragment"
+            android:name="me.zacl.moodlog.fragment.FirstFragment"
             android:label="@string/first_fragment_label"
             tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
             android:id="@+id/SecondFragment"
-            android:name="me.zacl.moodlog.SecondFragment"
+            android:name="me.zacl.moodlog.fragment.SecondFragment"
             android:label="@string/second_fragment_label"
             tools:layout="@layout/fragment_second">
 

@@ -1,7 +1,8 @@
-package me.zacl.moodlog;
+package me.zacl.moodlog.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import me.zacl.moodlog.R;
 
 public class AddMoodActivity extends AppCompatActivity {
 

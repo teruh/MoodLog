@@ -10,15 +10,15 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".AddMoodActivity"
+                android:name=".activity.AddMoodActivity"
                 android:label="@string/addMoodActivity"
-                android:parentActivityName=".MainActivity">
+                android:parentActivityName=".activity.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="me.zacl.moodlog.MainActivity" />
+                android:value="me.zacl.moodlog.activity.MainActivity" />
         </activity>
         <activity
-                android:name=".MainActivity"
+                android:name=".activity.MainActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
